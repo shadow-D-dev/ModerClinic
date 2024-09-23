@@ -1,5 +1,5 @@
 import Background from "./Background";
-import FooTer from "./FooTer";
+import FooTer from "./Header";
 function HomePage() {
   return (
     <>
