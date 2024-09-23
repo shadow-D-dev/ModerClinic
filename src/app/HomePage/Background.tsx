@@ -1,5 +1,5 @@
 import Image from "next/image";
-import favicon from "@/../Public/background1.jpg";
+import favicon from "@/../Public/background3.jpg";
 export default function Background() {
   return (
     <div className="bg-black opacity-50">
