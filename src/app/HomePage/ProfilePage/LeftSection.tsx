@@ -1,6 +1,6 @@
 export default function LeftSection() {
   return (
-    <div className="flex pb-20 w-screen border border-white rounded-lg">
+    <div className="flex w-screen border border-white rounded-lg justify-center p-20">
       LeftSection
     </div>
   );
