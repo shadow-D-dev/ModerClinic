@@ -1,9 +1,9 @@
 import Image from "next/image";
-import favicon from "@/../Public/background3.jpg";
+import favicon from "@/../Public/images/background3.jpg";
 export default function Background() {
   return (
-    <div className="bg-black opacity-40 h-full w-full inset-0">
-      <Image src={favicon} alt="background" className="" objectFit="cover" />
+    <div className="bg-black opacity-40">
+      <Image src={favicon} alt="background" className="w-full h-[800px]" />
     </div>
   );
 }
