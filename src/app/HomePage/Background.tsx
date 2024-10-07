@@ -6,7 +6,7 @@ export default function Background() {
       <Image
         src={favicon}
         alt="background"
-        className="w-full h-[800px] absolute"
+        className="w-full h-[950px] absolute"
       />
     </div>
   );
