@@ -1,3 +1,4 @@
+import CommitmentPage from "./CommitmentPage/CommitmentPage";
 import HomePage from "./HomePage/HomePage";
 import Appointment from "./appointment/Appointment";
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
       </div>
       <div>
         <Appointment />
+      </div>
+      <div>
+        <CommitmentPage />
       </div>
     </div>
   );
