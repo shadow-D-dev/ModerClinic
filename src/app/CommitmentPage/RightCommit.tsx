@@ -18,7 +18,7 @@ export default function RightCommit() {
         </div>
         <div>button</div>
       </div>
-      <div className="p-10 bg-white text-black h-20 w-20 rounded relative  right-0 top-1/2  ">
+      <div className="p-10 bg-white text-black h-20 w-20 rounded relative  right-0 top-1/2 opacity-5 ">
         {" "}
       </div>
     </div>
