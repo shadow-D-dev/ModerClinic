@@ -10,14 +10,14 @@ export default function LeftCommit() {
           className="w-[500px] h-[500px] rounded-3xl"
         />
       </div>
-      <div className="relative top-96 left-40    ">
+      <div className="relative top-96 left-40 w-[500px]">
         <Image
           src={main}
           alt="commit image"
           className="w-[500px] h-[350px] rounded-3xl"
         />
       </div>
-      <div className="relative bottom-80 left-96    ">
+      <div className="relative bottom-80 left-96 w-[200px] ">
         <Image
           src={main}
           alt="commit image"

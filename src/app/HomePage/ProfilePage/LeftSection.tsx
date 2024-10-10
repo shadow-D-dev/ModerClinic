@@ -4,23 +4,31 @@ import Image from "next/image";
 export default function LeftSection() {
   return (
     <>
-      <div className="flex flex-col pt-10 h-full">
+      <div className="flex flex-col pt-10 h-full font-plusJakarta">
         {/* Heading starts here */}
-        <div id="heading">
-          <div className="flex overflow-hidden gap-3 ">
+        <div id="heading" className="font-bold text-[64px]">
+          <div className="flex  gap-3 ">
             <p>Your</p>
             <p>smile</p>
-            <Image src={smile} alt="smile" className="h-10 w-40 rounded-xl" />
+            <Image
+              src={smile}
+              alt="smile"
+              className="h-[50px] w-[138px] mt-3 rounded-[100px]"
+            />
             <p>matters</p>
           </div>
           <div className="flex">
-            <p>care</p>
-            <Image src={smile1} alt="smile" className="h-10 w-40 rounded-xl" />
+            <p>expert dental care</p>
+            <Image
+              src={smile1}
+              alt="smile"
+              className="h-[49px] w-[138px] mt-4 rounded-[100px] ml-2"
+            />
           </div>
-          <p>A bright tommorrow</p>
+          <p>a bright tommorrow</p>
         </div>
         {/* Heading ends here  */}
-        <p className="text-xl">
+        <p className="text-xl mt-12 font-bold">
           Experience top-quality dental care focused on your smile&apos;s health
           and beauty.
         </p>
