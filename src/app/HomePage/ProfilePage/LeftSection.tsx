@@ -20,7 +20,6 @@ export default function LeftSection() {
           <p>A bright tommorrow</p>
         </div>
         {/* Heading ends here  */}
-
         <p className="text-xl">
           Experience top-quality dental care focused on your smile&apos;s health
           and beauty.
