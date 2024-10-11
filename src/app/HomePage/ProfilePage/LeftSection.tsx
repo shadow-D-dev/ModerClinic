@@ -25,12 +25,16 @@ export default function LeftSection() {
           </div>
 
           <div className="flex">
-            <p>expert dental care</p>
+            <p className="flex gap-4">
+              <span>expert</span>
+              <span>dental</span>
+            </p>
             <Image
               src={smile1}
               alt="smile"
               className="h-[49px] w-[138px] mt-4 rounded-[100px] ml-2"
             />
+            <p className="ml-2">care</p>
           </div>
 
           <p>a bright tommorrow</p>

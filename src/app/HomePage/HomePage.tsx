@@ -3,7 +3,7 @@ import FooTer from "./Header";
 import ProfilePage from "./ProfilePage/ProfilePage";
 function HomePage() {
   return (
-    <div className=" border border-white rounded overflow-hidden h-[1000]">
+    <div className="  h-[1000]">
       <div className="absolute inset-0 w-full">
         <Background />
       </div>
