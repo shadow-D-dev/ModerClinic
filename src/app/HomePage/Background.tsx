@@ -1,12 +1,12 @@
 import Image from "next/image";
-import favicon from "@/../Public/images/background3.jpg";
+import favicon from "@/../Public/images/LinesBackground.svg";
 export default function Background() {
   return (
-    <div className="bg-black opacity-40">
+    <div className=" opacity-40  bg-gradient-to-r from-black to-black">
       <Image
         src={favicon}
         alt="background"
-        className="w-full h-[950px] absolute"
+        className="w-full bg-[#5e5eee] h-[970px] absolute bg-gradient-to-r from-[#5e5eee] to-black "
       />
     </div>
   );

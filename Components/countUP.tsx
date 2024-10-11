@@ -16,7 +16,7 @@ export default function CountUpComp({ end, duration, suffix }: countUpProp) {
   return (
     <div className="flex">
       {startAnimation && <CountUp end={end} duration={duration} />}
-      {suffix ? <div>{suffix}</div> : <div></div>}
+      {suffix ? <div className="">{suffix}</div> : <div></div>}
     </div>
   );
 }
