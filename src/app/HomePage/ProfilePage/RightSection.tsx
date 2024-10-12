@@ -3,12 +3,12 @@ import image from "@/../Public/images/hero-img.jpg";
 import star from "@/../Public/images/star.svg";
 export default function RightSection() {
   return (
-    <div className=" relative mt-16 w-full">
-      <div className="absolute top-0 left-0">
+    <div className=" relative">
+      <div className="absolute">
         <Image
           src={image}
           alt="treatment image"
-          className="rounded-[40px] h-[650px] w-[570px]"
+          className="rounded-[40px] h-[700px] w-[607px] ml-20"
         />
       </div>
       <div className="relative  bg-white top-64 left-[-80px] w-[300px] p-6 rounded-3xl  text-black">
