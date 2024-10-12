@@ -3,11 +3,11 @@ import FooTer from "./Header";
 import ProfilePage from "./ProfilePage/ProfilePage";
 function HomePage() {
   return (
-    <div className="  h-[1000]">
-      <div className="absolute inset-0 w-full">
+    <div className="absolute mt-[1400px]">
+      <div className=" ">
         <Background />
       </div>
-      <div className="relative  m-5 ">
+      <div className="relative ">
         <FooTer />
       </div>
       <div className="relative">

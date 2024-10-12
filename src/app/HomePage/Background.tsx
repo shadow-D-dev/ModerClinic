@@ -6,7 +6,7 @@ export default function Background() {
       <Image
         src={favicon}
         alt="background"
-        className="w-full bg-[#5e5eee] h-[1000px] absolute bg-gradient-to-r from-[#5e5eee] to-black "
+        className="bg-[#5e5eee] h-[1000px] absolute bg-gradient-to-r from-[#5e5eee] to-black "
       />
     </div>
   );

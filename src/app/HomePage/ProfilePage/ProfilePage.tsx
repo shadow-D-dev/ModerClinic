@@ -2,11 +2,11 @@ import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 export default function ProfilePage() {
   return (
-    <div className=" flex text-5xl gap-4 w-full h-[800px]">
-      <div className="w-1/2">
+    <div className=" flex h-[800px]">
+      <div className="">
         <LeftSection />
       </div>
-      <div className="w-1/2">
+      <div className="">
         <RightSection />
       </div>
     </div>

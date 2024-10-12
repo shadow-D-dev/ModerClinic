@@ -5,7 +5,7 @@ import StatsHomePage from "./StatsHomepage";
 export default function LeftSection() {
   return (
     <>
-      <div className="flex flex-col pr-16 pt-10 h-full font-plusJakarta ml-4 overflow-hidden">
+      <div className="flex flex-col pr-16 pt-10 h-full font-plusJakarta ml-4 w-[1000px]">
         {/* Heading starts here */}
         <div
           id="heading"
