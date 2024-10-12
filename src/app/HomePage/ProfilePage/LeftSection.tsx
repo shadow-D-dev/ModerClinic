@@ -21,7 +21,7 @@ ml-12 "
             <Image
               src={smile}
               alt="smile"
-              className="h-[50px] w-[138px] mt-3 rounded-[100px]"
+              className="h-[50px] w-[138px] mt-7 rounded-[100px]"
             />
             <p>matters</p>
           </div>
