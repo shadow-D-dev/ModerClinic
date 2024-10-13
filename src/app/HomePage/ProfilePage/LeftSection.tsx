@@ -7,7 +7,7 @@ import StatsHomePage from "./StatsHomepage";
 export default function LeftSection() {
   return (
     <>
-      <div className="font-plusJakarta  font-bold   ">
+      <div className="font-plusJakarta  font-bold  p-6 ">
         {/* Heading starts here */}
 
         {/* 1st heading */}
@@ -50,7 +50,7 @@ export default function LeftSection() {
           and beauty. Trust us to create a brighter, healthier tomorrow
         </p>
         <StatsHomePage />
-        <div className=" gap-4 flex text-xl mt-9">
+        <div className=" gap-4 flex text-xl mt-12 align-bottom">
           <button className=" flex gap-4 bg-[#5e5eee] rounded-[100px] px-8 py-4">
             <Image src={Phoneicon} alt="phoneicon" /> Book Now
           </button>
