@@ -7,42 +7,45 @@ import StatsHomePage from "./StatsHomepage";
 export default function LeftSection() {
   return (
     <>
-      <div
-        className="flex flex-col  font-plusJakarta  font-bold 
-ml-12 "
-      >
+      <div className="font-plusJakarta  font-bold   ">
         {/* Heading starts here */}
-        <div id="heading" className="text-[64px] flex flex-col ">
-          <div className="flex  gap-3 ">
-            <p className="flex gap-3">
+
+        {/* 1st heading */}
+        <div id="heading" className="text-6xl">
+          <div className="flex gap-3  items-center">
+            <h2 className="flex gap-3">
               <span>Your</span>
               <span> smile</span>
-            </p>
+            </h2>
             <Image
               src={smile}
-              alt="smile"
-              className="h-[50px] w-[138px] mt-7 rounded-[100px]"
+              alt="Image depicting a smile"
+              className="h-[50px] w-[138px] rounded-[100px] mt-3"
             />
-            <p>matters</p>
+            <h2>matters</h2>
           </div>
 
-          <div className="flex">
-            <p className="flex gap-4">
+          {/* 2nd heading */}
+          <div className="flex items-center">
+            <h2 className="flex gap-3">
               <span>expert</span>
               <span>dental</span>
-            </p>
+            </h2>
             <Image
               src={smile1}
-              alt="smile"
-              className="h-[49px] w-[138px] mt-4 rounded-[100px] ml-2"
+              alt="Image related to dental care"
+              className="h-[49px] w-[138px] rounded-[100px] ml-2 mt-3"
             />
-            <p className="ml-2">care</p>
+            <h2 className="ml-2">care</h2>
           </div>
 
-          <p>a bright tommorrow</p>
+          {/* 3rd heading */}
+          <div className="flex">
+            <h2>a bright tomorrow</h2>
+          </div>
         </div>
         {/* Heading ends here  */}
-        <p className="text-xl">
+        <p className="text-xl mt-10">
           Experience top-quality dental care focused on your smile&apos;s health
           and beauty. Trust us to create a brighter, healthier tomorrow
         </p>

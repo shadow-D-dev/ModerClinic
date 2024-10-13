@@ -3,15 +3,15 @@ import image from "@/../Public/images/hero-img.jpg";
 import star from "@/../Public/images/star.svg";
 export default function RightSection() {
   return (
-    <div className=" relative">
-      <div className="absolute">
+    <div className=" relative flex justify-end mr-1">
+      <div className="">
         <Image
           src={image}
           alt="treatment image"
-          className="rounded-[40px] h-[700px] w-[607px] ml-20"
+          className=" relative rounded-[40px] h-[670px] w-[630px] "
         />
       </div>
-      <div className="relative  bg-white top-64 left-[-80px] w-[300px] p-6 rounded-3xl  text-black">
+      <div className="absolute  bg-white bottom-40 left-10 w-[300px] p-6 rounded-3xl  text-black">
         <div className="flex justify-start gap-2">
           <Image src={star} alt="star" />
           <Image src={star} alt="star" />

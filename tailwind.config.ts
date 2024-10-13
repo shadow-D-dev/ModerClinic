@@ -15,6 +15,9 @@ const config: Config = {
       fontFamily: {
         plusJakarta: "var(--font-plus-jakarta)",
       },
+      fontSize: {
+        "6.5xl": "68px", // Define custom size here
+      },
     },
   },
   plugins: [],
