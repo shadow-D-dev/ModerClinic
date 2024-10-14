@@ -1,9 +1,9 @@
-import CountUpComp from "../../../../Components/countUP";
+import CountUpComp from "./countUP";
 export default function StatsHomePage() {
   return (
     <div>
       {" "}
-      <div className=" border-t border-b border-white mt-14 flex p-7 text-4xl gap-12 overflow-hidden">
+      <div className=" border-t border-b border-white mt-14 flex p-7 text-5xl gap-12 overflow-hidden">
         <div className="flex gap-5 flex-col justify-center items-center">
           <div className="font-plusJakarta font-bold">
             <CountUpComp end={24} duration={5} suffix={"X 7"} />

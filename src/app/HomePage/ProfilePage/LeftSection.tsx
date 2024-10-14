@@ -3,7 +3,7 @@ import smile1 from "@/../public/images/smileCare.jpg";
 import Phoneicon from "@/../public/images/phoneicon.svg";
 import Plusicon from "@/../public/images/plusicon.svg";
 import Image from "next/image";
-import StatsHomePage from "./StatsHomepage";
+import StatsHomePage from "../../../../Components/StatsHomepage";
 export default function LeftSection() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function LeftSection() {
         {/* Heading starts here */}
 
         {/* 1st heading */}
-        <div id="heading" className="text-6xl">
+        <div id="heading" className="text-7xl">
           <div className="flex gap-3  items-center">
             <h2 className="flex gap-3">
               <span>Your</span>
