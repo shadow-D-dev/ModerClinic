@@ -1,13 +1,17 @@
 import HomePage from "./HomePage/HomePage";
 import AppointmentComp from "../../components/Appointment";
+import CommitMentComp from "./CommitMentComp/CommitMentComp";
 export default function Home() {
   return (
-    <div className="mb-96">
-      <div className="flex">
+    <div className="">
+      <div className="flex ">
         <HomePage />
       </div>
-      <div className=" relative mt-10  flex justify-center items-center m-4">
+      <div className=" z-20  relative shadow-black  flex justify-center items-center ml-4 mr-4 mt-10 ">
         <AppointmentComp />
+      </div>
+      <div className="relative -top-20 ">
+        <CommitMentComp />
       </div>
     </div>
   );
