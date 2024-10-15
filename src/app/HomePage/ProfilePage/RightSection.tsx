@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image from "@/../Public/images/hero-img.jpg";
-import star from "@/../Public/images/star.svg";
+import image from "@/../Public/Images/hero-img.jpg";
+import star from "@/../Public/Images/star.svg";
 export default function RightSection() {
   return (
     <div className=" relative flex justify-end mr-1">

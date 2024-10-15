@@ -4,13 +4,13 @@ import ProfilePage from "./ProfilePage/ProfilePage";
 function HomePage() {
   return (
     <div className="relative">
-      <div className="">
+      <div className=" relative">
         <FooTer />
       </div>
-      <div className="absolute w-screen ">
+      <div className="absolute  border border-white w-full h-[1000px] overflow-hidden ">
         <Background />
       </div>
-      <div className="relative flex flex-col w-screen justify-center items-center">
+      <div className="relative flex  w-screen justify-center items-center">
         <div className="">
           <ProfilePage />
         </div>

@@ -1,9 +1,9 @@
-import smile from "@/../public/images/smile.jpg";
-import smile1 from "@/../public/images/smileCare.jpg";
-import Phoneicon from "@/../public/images/phoneicon.svg";
-import Plusicon from "@/../public/images/plusicon.svg";
+import smile from "@/../Public/Images/smile.jpg";
+import smile1 from "@/../Public/Images/smileCare.jpg";
+import Phoneicon from "@/../Public/Images/phoneicon.svg";
+import Plusicon from "@/../Public/Images/PlusSign.svg";
 import Image from "next/image";
-import StatsHomePage from "../../../../Components/StatsHomepage";
+import StatsHomePage from "../../../../components/StatsHomepage";
 export default function LeftSection() {
   return (
     <>

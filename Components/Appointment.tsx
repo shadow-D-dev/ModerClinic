@@ -1,15 +1,15 @@
 import Image from "next/image";
-import phone from "@/../Public/images/phoneicon.svg";
-import plus from "@/../Public/images/plusicon.svg";
+import phone from "@/../Public/Images/phoneicon.svg";
+import plus from "@/../Public/Images/PlusSign.svg";
 export default function AppointmentComp() {
   return (
-    <div className=" flex bg-white rounded-3xl ">
-      <div className="flex gap-4 flex-1 p-6  border border-r-black">
-        <div className="  rounded-3xl bg-[#5e5eee] p-6 ">
-          <Image src={phone} alt="phone" className="" />
+    <div className=" flex bg-white rounded-3xl w-[1500px] p-10  mt-[70px] gap-6">
+      <div className="flex flex-1 border  border-white border-r-black gap-6 ">
+        <div className="rounded-2xl bg-[#5e5eee] p-6">
+          <Image src={phone} alt="phone" width={35} height={40} />
         </div>
-        <div>
-          <p className="text-xl font-plusJakarta font-bold text-black">
+        <div className=" flex flex-col gap-4">
+          <p className="text-2xl font-plusJakarta font-bold text-black">
             Need Dental Services?
           </p>
           <p className="text-xl font-plusJakarta text-black ">
@@ -17,12 +17,12 @@ export default function AppointmentComp() {
           </p>
         </div>
       </div>
-      <div className="flex gap-4 flex-1 p-6 border border-r-black">
-        <div className="  rounded-3xl bg-[#5e5eee] p-6 ">
-          <Image src={phone} alt="phone" className="" />
+      <div className="flex flex-1 border  border-white border-r-black gap-6 ">
+        <div className="rounded-2xl bg-[#5e5eee] p-6">
+          <Image src={phone} alt="phone" width={35} height={40} />
         </div>
-        <div>
-          <p className="text-xl font-plusJakarta font-bold text-black">
+        <div className=" flex flex-col gap-4">
+          <p className="text-2xl font-plusJakarta font-bold text-black">
             Need Dental Services?
           </p>
           <p className="text-xl font-plusJakarta text-black ">
@@ -32,8 +32,8 @@ export default function AppointmentComp() {
       </div>
 
       <div className=" flex-1 flex justify-center items-center">
-        <button className=" flex gap-4 bg-[#5e5eee] rounded-[100px] px-8 py-4 text-white">
-          <Image src={plus} alt="phoneicon" /> Book Now
+        <button className=" flex gap-4 bg-[#5e5eee] rounded-[100px] px-8 py-5 text-white text-xl font-plusJakarta font-bold">
+          <Image src={plus} alt="phoneicon" /> Make An Appoitment
         </button>
       </div>
     </div>
