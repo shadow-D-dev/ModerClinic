@@ -1,7 +1,44 @@
+import Image from "next/image";
+import tick from "@/../Public/Images/tick.svg";
 export default function RightCommitMentComp() {
   return (
-    <div>
-      <div>Hello</div>
+    <div className="font-plusJakarta mt-6 flex flex-col gap-6 pr-10">
+      <p className="text-xl font-bold text-[#5e5eee]">ABOUT US</p>
+      <p className="text-6xl font-extrabold">
+        <span className="text-[#5e5eee]">Your Journey</span> to a Healthier
+        Smile Begins Here
+      </p>
+      <p className="text-xl">
+        The goal of our clinic is to provide friendly, caring dentistry and the
+        highest level of general, cosmetic, and specialist dental treatments.
+        With dental practices throughout the world.
+      </p>
+      <div className="flex flex-col gap-6">
+        <div className="flex ">
+          <div className="flex flex-1 gap-2">
+            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <p className="text-lg font-bold">Experienced Team</p>
+          </div>
+          <div className="flex flex-1 gap-2">
+            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <p className="text-lg font-bold">Comprehensive Services</p>
+          </div>
+        </div>
+        <div className="flex ">
+          <div className="flex flex-1 gap-2">
+            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <p className="text-lg font-bold">State-Of-The-Art Technology</p>
+          </div>
+          <div className="flex flex-1 gap-2">
+            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <p className="text-lg font-bold">Emergency Dental Services</p>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center  bg-gray-300 p-3 rounded-3xl w-72 gap-4">
+        <p className="text-xl font-bold">Read More About Us</p>
+        <Image src={tick} alt="arrow" className="h-12 w-12" />
+      </div>
     </div>
   );
 }
