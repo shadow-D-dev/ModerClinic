@@ -1,12 +1,10 @@
-import Image from "next/image";
-import whiteBackground from "@/../Public/Images/whiteBackground.svg";
 import LeftCommitMentComp from "./LeftCommitMentComp";
 import RightCommitMentComp from "./RightCommitMentCompCommitMentComp";
 export default function CommitMentComp() {
   return (
     <div className="">
       <div className="relative">
-        <Image src={whiteBackground} alt="white-background" className="" />
+        <div className="bg-white w-screen h-[1000px] relative">{""}</div>
         <div className="absolute top-24 w-screen  flex justify-center items-center ">
           <div className="text-black w-[1500px]">
             <div className="flex">

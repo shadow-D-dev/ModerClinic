@@ -1,6 +1,7 @@
 import HomePage from "./HomePage/HomePage";
 import AppointmentComp from "../../components/Appointment";
 import CommitMentComp from "./CommitMentComp/CommitMentComp";
+import Services from "./Services/Services";
 export default function Home() {
   return (
     <div className="">
@@ -12,6 +13,9 @@ export default function Home() {
       </div>
       <div className="relative -top-20 w-screen">
         <CommitMentComp />
+      </div>
+      <div className="relative -top-20 w-screen">
+        <Services />
       </div>
     </div>
   );
