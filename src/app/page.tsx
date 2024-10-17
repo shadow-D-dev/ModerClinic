@@ -3,6 +3,7 @@ import AppointmentComp from "../../components/Appointment";
 import CommitMentComp from "./CommitMentComp/CommitMentComp";
 import Services from "./Services/Services";
 import WhyUs from "./WhyUs/WhyUs";
+import Testimonials from "./testimonials";
 export default function Home() {
   return (
     <div className="">
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="relative -top-20 w-screen">
         <WhyUs />
+      </div>
+      <div className="relative -top-20 w-screen">
+        <Testimonials />
       </div>
     </div>
   );

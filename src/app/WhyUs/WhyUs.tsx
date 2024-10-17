@@ -5,11 +5,13 @@ import Reason1 from "@/../Public/Images/whitening.svg";
 import WhyUsReasons from "./WhyUsReasons";
 export default function WhyUs() {
   return (
-    <div className="w-screen h-[1000px] relative ">
+    <div className="w-screen relative ">
       <div className="opacity-60  bg-gradient-to-r from-black to-black ">
-        <div className="absolute  bg-gradient-to-r from-[#5e5eee] to-black ">
-          <Image src={back} alt="background" className="w-screen h-[830px]" />
-        </div>
+        <Image
+          src={back}
+          alt="background"
+          className="w-screen h-[830px] absolute  bg-gradient-to-r from-[#5e5eee] to-black "
+        />
       </div>
       <div className="relative">
         <div className="flex flex-col justify-center items-center font-plusJakarta font-bold pt-10 text-white gap-2">
