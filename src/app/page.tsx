@@ -3,7 +3,7 @@ import AppointmentComp from "../../components/Appointment";
 import CommitMentComp from "./CommitMentComp/CommitMentComp";
 import Services from "./Services/Services";
 import WhyUs from "./WhyUs/WhyUs";
-import Testimonials from "./testimonials";
+import Testimonials from "./Testimonials/testimonials";
 export default function Home() {
   return (
     <div className="">
