@@ -1,6 +1,9 @@
 import ServiceComp from "./ServicesComp";
 import Image from "next/image";
 import tick from "@/../Public/Images/tick.svg";
+import brush from "@/../Public/Images/BrushoverTeeth.svg";
+import service1 from "@/../Public/Images/Service3.jpg";
+import arrow from "@/../Public/Images/RightArrow.svg";
 
 export default function Services() {
   return (
@@ -19,13 +22,31 @@ export default function Services() {
         <div className="flex justify-evenly mt-12">
           {" "}
           <div>
-            <ServiceComp />
+            <ServiceComp
+              icon={brush}
+              treatment="General Dentistry"
+              arrow={arrow}
+              service={service1}
+              subtext="We are excited to meet you and provide the best dental care for your family"
+            />
           </div>
           <div>
-            <ServiceComp />
+            <ServiceComp
+              icon={brush}
+              treatment="General Dentistry"
+              arrow={arrow}
+              service={service1}
+              subtext="We are excited to meet you and provide the best dental care for your family"
+            />
           </div>
           <div>
-            <ServiceComp />
+            <ServiceComp
+              icon={brush}
+              treatment="General Dentistry"
+              arrow={arrow}
+              service={service1}
+              subtext="We are excited to meet you and provide the best dental care for your family"
+            />
           </div>
         </div>
         <div className="text-2xl flex flex-col items-center mt-10 text-[#5e5eee]">

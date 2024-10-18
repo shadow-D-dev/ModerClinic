@@ -25,10 +25,10 @@ export default function AppointmentComp() {
         </div>
         <div className=" flex flex-col gap-4">
           <p className="text-2xl font-plusJakarta font-bold text-black">
-            Need Dental Services?
+            Opening Hours
           </p>
           <p className="text-xl font-plusJakarta text-black ">
-            (+91)9764773648
+            Mon to Sat 9:00AM to 11:00PM
           </p>
         </div>
       </div>

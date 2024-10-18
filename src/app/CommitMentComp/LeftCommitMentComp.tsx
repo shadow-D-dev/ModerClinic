@@ -1,7 +1,7 @@
 import Image from "next/image";
 import commit1 from "@/../public/Images/commitment1.jpg";
 import commit2 from "@/../public/Images/commitment2.jpg";
-import Exp from "@/../public/Images/Experience.png";
+import Exp from "@/../public/Images/about-experience-circle.png";
 export default function LeftCommitMentComp() {
   return (
     <div className="ml-6 mt-6">

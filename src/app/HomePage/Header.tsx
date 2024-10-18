@@ -1,14 +1,32 @@
+import Image from "next/image";
+import logo from "@/../public/Images/ShreeBalajiLogo.jpg";
+import phone from "@/../public/Images/phoneicon.svg";
 export default function Header() {
   return (
-    <div className="bg-white w-screen flex justify-center items-center text-black">
-      <div className="flex justify-center items-center   p-7 text-3xl font-plusJakarta font-bold border border-white w-[1500px] h-[110px] ">
-        <div className=" flex flex-1">shree Balaji clinic</div>
-        <div className="flex flex-1 justify-evenly">
+    <div className="bg-white w-screen flex justify-center items-center text-black overflow-hidden">
+      <div className="flex justify-center items-center   p-7 font-plusJakarta   w-[1500px] h-[110px] ">
+        <div className="flex-1">
+          <Image src={logo} alt="logo" className="h-32 w-32" />
+        </div>
+        <div className="flex flex-1 font-bold gap-10 text-xl">
+          <div>Home</div>
           <div>About Us</div>
           <div>Services</div>
-          <div>Contact Us</div>
+          <div>Results</div>
         </div>
-        <div className="flex-1 flex justify-end">Help</div>
+        <div className="flex-1 flex justify-end gap-4 items-center">
+          <div>
+            <Image
+              src={phone}
+              alt="phone"
+              className="bg-[#5e5eee] h-12 w-12 p-2 rounded-full"
+            />
+          </div>
+          <div>
+            <p className="text-xl">Need Help?</p>
+            <p className="font-bold text-xl">(+91) 8356-858428</p>
+          </div>
+        </div>
       </div>
     </div>
   );
