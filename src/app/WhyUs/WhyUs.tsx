@@ -1,11 +1,11 @@
 import Image from "next/image";
 import doc from "@/../Public/Images/why-choose-image.png";
-import back from "@/../Public/Images/LinesBackground.svg";
+import back from "@/../Public/Images/hero-bg.svg";
 import Reason1 from "@/../Public/Images/whitening.svg";
 import WhyUsReasons from "./WhyUsReasons";
 export default function WhyUs() {
   return (
-    <div className="w-screen relative ">
+    <div className=" relative ">
       <div className="opacity-60  bg-gradient-to-r from-black to-black ">
         <Image
           src={back}

@@ -7,7 +7,7 @@ function HomePage() {
       <div className=" relative">
         <FooTer />
       </div>
-      <div className="absolute  border border-white w-full h-[1000px] overflow-hidden ">
+      <div className="">
         <Background />
       </div>
       <div className="relative flex  w-screen justify-center items-center">

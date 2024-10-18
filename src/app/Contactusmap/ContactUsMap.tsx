@@ -15,10 +15,10 @@ export default function ContactUsMap() {
             <div>
               <div className="flex-1 text-black">
                 <p className="text-[#5e5eee] text-xl font-bold">Contact Now</p>
-                <p className="text-5xl font-bold">
+                <div className="text-5xl font-bold">
                   <span className="text-[#5e5eee] ">Get Free</span>
                   Professional<p> Consultation</p>
-                </p>
+                </div>
               </div>
               <div className="text-black text-lg flex flex-col gap-4 mt-10">
                 <div>24/11 Robert Road, New York, USA</div>
