@@ -9,6 +9,7 @@ export default function RightSection() {
           src={image}
           alt="treatment image"
           className=" relative rounded-[40px] h-[670px] w-[630px] "
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <div className="absolute  bg-white bottom-40 left-10 w-[300px] p-6 rounded-3xl  text-black">

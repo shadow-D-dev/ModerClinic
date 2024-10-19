@@ -5,10 +5,15 @@ export default function ContactUsMap() {
   return (
     <div>
       <div className=" font-plusJakarta">
-        <div className="bg-violet-950 w-full">
-          <Image src={background} alt="back" />
+        <div className="bg-violet-950 w-full relative">
+          <Image
+            src={background}
+            alt="back"
+            height={1500}
+            className="h-[1000px]"
+          />
         </div>
-        <div className="bg-white w-[1500px] h-[1000px] p-4">
+        <div className=" w-[1500px] h-[1000px] p-4 absolute ">
           <div className="">
             <div className="flex">
               <div className="flex-1 text-black">

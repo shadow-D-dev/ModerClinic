@@ -20,7 +20,9 @@ export default function LeftSection() {
             <Image
               src={smile}
               alt="Image depicting a smile"
-              className="h-[50px] w-[138px] rounded-[100px] mt-3"
+              height={50}
+              width={138}
+              className="rounded-[100px] mt-3"
             />
             <h2>matters</h2>
           </div>
