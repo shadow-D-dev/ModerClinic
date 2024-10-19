@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logo from "@/../public/Images/ShreeBalajiLogo.jpg";
-import phone from "@/../public/Images/phoneicon.svg";
+import logo from "@/../Public/Images/Hospital-Logo.jpg";
+import phone from "@/../Public/Images/Call-Icon.svg";
 export default function Header() {
   return (
     <div className="bg-white w-screen flex justify-center items-center text-black overflow-hidden">

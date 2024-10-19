@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex ">
         <HomePage />
       </div>
-      <div className=" z-20  relative flex justify-center items-center ml-4 mr-4 ">
+      <div className=" z-20  relative flex justify-center items-center ">
         <AppointmentComp />
       </div>
       <div className="relative -top-20 w-screen">

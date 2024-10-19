@@ -3,7 +3,7 @@ import image from "@/../Public/Images/hero-img.jpg";
 import star from "@/../Public/Images/star.svg";
 export default function RightSection() {
   return (
-    <div className=" relative flex justify-end mr-1">
+    <div className=" relative flex justify-end mr-6">
       <div className="">
         <Image
           src={image}

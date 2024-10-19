@@ -1,11 +1,11 @@
 import Image from "next/image";
-import phone from "@/../Public/Images/phoneicon.svg";
-import plus from "@/../Public/Images/PlusSign.svg";
+import phone from "@/../Public/Images/Call-Icon.svg";
+import plus from "@/../Public/Images/Plus.svg";
 import time from "@/../Public/Images/24x7.svg";
 
 export default function AppointmentComp() {
   return (
-    <div className=" flex bg-white rounded-3xl w-[1500px] p-10  mt-[70px] gap-6 shadow-md shadow-gray-200">
+    <div className=" flex bg-white rounded-3xl w-[1500px] p-10  mt-[70px] gap-6 shadow-sm shadow-gray-200  ml-4 mr-4">
       <div className="flex flex-1 border  border-white border-r-black gap-6 ">
         <div className="rounded-2xl bg-[#5e5eee] p-6">
           <Image src={phone} alt="phone" width={35} height={40} />

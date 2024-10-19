@@ -1,6 +1,6 @@
 import Image from "next/image";
 import tick from "@/../Public/Images/tick.svg";
-import logo from "@/../Public/Images/ShreeBalajiLogo.jpg";
+import logo from "@/../Public/Images/Hospital-Logo.jpg";
 import arrow from "@/../Public/Images/RightArrow.svg";
 
 export default function RightCommitMentComp() {

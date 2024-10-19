@@ -1,7 +1,7 @@
 import smile from "@/../Public/Images/smile.jpg";
 import smile1 from "@/../Public/Images/smileCare.jpg";
-import Phoneicon from "@/../Public/Images/phoneicon.svg";
-import Plusicon from "@/../Public/Images/PlusSign.svg";
+import Phoneicon from "@/../Public/Images/Call-Icon.svg";
+import Plusicon from "@/../Public/Images/Plus.svg";
 import Image from "next/image";
 import StatsHomePage from "../../../../components/StatsHomepage";
 export default function LeftSection() {
