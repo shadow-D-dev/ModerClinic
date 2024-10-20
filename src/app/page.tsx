@@ -26,7 +26,7 @@ export default function Home() {
       <div className="relative -top-20 w-screen">
         <Testimonials />
       </div>
-      <div className="relative -top-20 w-screen">
+      <div className="relative top-6 w-screen">
         <ContactUsMap />
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function RightCommitMentComp() {
   return (
     <div className="font-plusJakarta mt-16 flex flex-col gap-6 pr-10 ">
       <div className="text-xl font-bold text-[#5e5eee] flex items-center gap-4">
-        <Image src={logo} alt="logo" className="h-10 w-10" />
+        <Image src={logo} alt="logo" height={40} width={40} />
         <p>ABOUT US</p>
       </div>
       <p className="text-6xl font-extrabold">
@@ -22,21 +22,21 @@ export default function RightCommitMentComp() {
       <div className="flex flex-col gap-6">
         <div className="flex ">
           <div className="flex flex-1 gap-2">
-            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <Image src={tick} alt="tick" height={32} width={32} />
             <p className="text-lg font-bold">Experienced Team</p>
           </div>
           <div className="flex flex-1 gap-2">
-            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <Image src={tick} alt="tick" height={32} width={32} />
             <p className="text-lg font-bold">Comprehensive Services</p>
           </div>
         </div>
         <div className="flex ">
           <div className="flex flex-1 gap-2">
-            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <Image src={tick} alt="tick" height={32} width={32} />
             <p className="text-lg font-bold">State-Of-The-Art Technology</p>
           </div>
           <div className="flex flex-1 gap-2">
-            <Image src={tick} alt="tick" className="h-8 w-8" />
+            <Image src={tick} alt="tick" height={32} width={32} />
             <p className="text-lg font-bold">Emergency Dental Services</p>
           </div>
         </div>
