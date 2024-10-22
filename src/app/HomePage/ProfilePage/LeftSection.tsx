@@ -11,7 +11,7 @@ export default function LeftSection() {
         {/* Heading starts here */}
 
         {/* 1st heading */}
-        <div id="heading" className="text-7xl md:text-5xl">
+        <div id="heading" className="lg:text-7xl md:text-5xl sm:text-4xl">
           <div className="flex gap-3  items-center">
             <h2 className="flex gap-3">
               <span>Your</span>

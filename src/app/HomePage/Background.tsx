@@ -7,7 +7,7 @@ export default function Background() {
         <Image
           src={background}
           alt="background"
-          className="bg-[#5e5eee]  bg-gradient-to-r from-[#5e5eee] to-black absolute"
+          className="bg-[#5e5eee]  bg-gradient-to-r from-[#5e5eee] to-violet-950 w-screen h-screen"
         />
       </div>
     </div>

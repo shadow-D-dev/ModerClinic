@@ -3,17 +3,15 @@ import FooTer from "./Header";
 import ProfilePage from "./ProfilePage/ProfilePage";
 function HomePage() {
   return (
-    <div className="relative">
-      <div className=" relative">
+    <div className="">
+      <div className="relative ">
         <FooTer />
       </div>
-      <div className="">
+      <div className="absolute ">
         <Background />
       </div>
       <div className="relative flex  w-screen justify-center items-center">
-        <div className="">
-          <ProfilePage />
-        </div>
+        <ProfilePage />
       </div>
     </div>
   );
