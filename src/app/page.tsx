@@ -8,7 +8,7 @@ import ContactUsMap from "./Contactusmap/Contactusmap";
 export default function Home() {
   return (
     <div className="">
-      <div className="flex ">
+      <div className=" ">
         <HomePage />
       </div>
       <div className=" z-20  relative flex justify-center items-center ">

@@ -6,7 +6,7 @@ export default function Header() {
   const pages = ["Home", "About", "Services", "Results"];
   return (
     <div className="bg-white w-screen flex justify-center items-center text-black overflow-hidden">
-      <div className="flex justify-center items-center   p-5 font-plusJakarta   w-[1500px] lg:h-[110px] md:h-[100px] sm:h-[100px] ">
+      <div className="flex justify-center items-center   p-7 font-plusJakarta   w-[1500px] lg:h-[110px] md:h-[100px] sm:h-[100px] ">
         <div className="flex-1">
           <Image
             src={logo}

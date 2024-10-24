@@ -4,7 +4,7 @@ import ProfilePage from "./ProfilePage/ProfilePage";
 function HomePage() {
   return (
     <div className="">
-      <div className="relative ">
+      <div className="relative w-screen ">
         <FooTer />
       </div>
       <div className="absolute ">
